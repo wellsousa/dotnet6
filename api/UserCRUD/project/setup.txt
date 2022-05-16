@@ -1,0 +1,27 @@
+
+dotnet CLI - Command Line Interface
+
+versao do dotnet 
+    dotnet --version
+
+instalação do Entity Framework
+
+  dotnet install --global dotnet-ef
+  dotnet-ef
+
+* criação do projeto
+mkdir UserCRUD
+dotnet new webapi
+
+para executar a aplicação digite:
+    https://localhost:[porta]/swagger
+
+* Apagados os arquivos gerados pelo dotnet cli
+
+- Controllers/WeatherForecastController.cs
+- WeatherForecast.cs
+
+* criado o diretorio para armazenar os Models
+
+- criado o modelo User 
+- criado o controller UserController
